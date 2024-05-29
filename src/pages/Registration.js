@@ -15,7 +15,7 @@ function Registration() {
   });
 
   const onSubmit = (data) => {
-    axios.post("http://localhost:3001/auth", data).then(() => {
+    axios.post("https://fullstack-api-magabilin-manali-1809c0ed523b.herokuapp.com/auth", data).then(() => {
       console.log(data);
     });
   };
